@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+    {
+      "name": "MCRI Cuffless BP",
+      "maintainer": "MCRI",
+      "websiteURL": " ",
+      "email" : " ",
+      "platforms":
+      [
+        {
+          "name": "MCRI Cuffless BP",
+          "architecture": "nrf52",
+          "version": "1.0",
+          "category": "Contributed",
+          "url": "https://github.com/garethclay/cuffless_bp/blob/main/cuffless_bp_1.0.zip?raw=true",
+          "archiveFileName": "cuffless_bp_1.0.zip",
+          "checksum": "SHA-256:ee9b520bb53f14890124dc425996e2c9dec2da8059315af7502009807323e1c5",
+          "size": "12541952",
+          "boards": [
+            {
+              "name": "MCRI Cuffless BP"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
